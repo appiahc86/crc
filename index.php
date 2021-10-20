@@ -15,11 +15,19 @@
 
         <style>
 
-
             @media only screen and (max-width: 800px) {
                 .mySliderImage {
                     height: auto;
                 }
+            }
+
+            .logo{
+                height: 60px!important;
+            }
+
+            #mainNav {
+                padding-top: 0 !important;
+                padding-bottom: 0 !important;
             }
 
 
@@ -61,8 +69,8 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="#page-top">
-<!--                    <img src="assets/img/navbar-logo.svg" alt="..." />-->
-                    CRC
+                    <img src="assets/img/logo.png" class="logo"  alt="..." />
+<!--                    CRC-->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -74,7 +82,6 @@
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link text-center" href="#page-top">Home</a></li>
                         <li class="nav-item"><a class="nav-link text-center" href="#about-us">About Us</a></li>
-<!--                        <li class="nav-item"><a class="nav-link text-center" href="#portfolio">Portfolio</a></li>-->
                         <li class="nav-item"><a class="nav-link text-center" href="#events">Events</a></li>
                         <li class="nav-item"><a class="nav-link text-center" href="#leaders">Leaders</a></li>
                         <li class="nav-item"><a class="nav-link text-center" href="#contact">Contact</a></li>
@@ -84,7 +91,7 @@
         </nav>
 
         <!-- Masthead-->
-        <header class="masthead container-fluid">
+        <header class="masthead container-flex">
 
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -119,7 +126,8 @@
         <section class="page-section pt-3 pt-md-5 pb-4" id="about-us">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About Us</h2>
+                    <h3 class="section-heading text-uppercase">About Us</h3>
+                    <div class="text-center"><span class="fas fa-2x fa-hand-point-down"></span></div>
                     <div class="section-subheading text-muted">
                         <hr>
                     </div>
@@ -430,7 +438,7 @@
                                     <h4 class="text-uppercase">General Council Meeting</h4>
                                     <h5 class="item-intro text-muted">22nd October, 2021</h5>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/events/1preview.jpeg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
 
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
