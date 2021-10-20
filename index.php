@@ -408,7 +408,7 @@
                     </div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-info btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-primary btn-social mx-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-primary btn-social mx-2" href="https://web.facebook.com/Christ-Revival-Church-Ghana-102349004745440"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-danger btn-social mx-2" href=""><i class="fab fa-youtube"></i></a>
                     </div>
 
@@ -427,8 +427,8 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
 
-                                    <h2 class="text-uppercase">General Council Meeting</h2>
-                                    <h4 class="item-intro text-muted">22nd October, 2021</h4>
+                                    <h4 class="text-uppercase">General Council Meeting</h4>
+                                    <h5 class="item-intro text-muted">22nd October, 2021</h5>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/events/1preview.jpeg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
 
