@@ -16,9 +16,9 @@
         <style>
 
 
-            @media only screen and (max-width: 1000px) {
+            @media only screen and (max-width: 800px) {
                 .mySliderImage {
-                    height: 250px;
+                    height: auto;
                 }
             }
 
@@ -89,13 +89,16 @@
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="4000">
-                        <img src="assets/img/header-bg.jpeg" class="d-block w-100 img-fluid mySliderImage" alt="...">
+                        <img src="assets/img/header-bg.jpg" class="d-block w-100 img-fluid mySliderImage" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
                         <img src="assets/img/header-bg2.jpeg" class="d-block w-100 img-fluid mySliderImage" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="assets/img/header-bg3.jpeg" class="d-block w-100 img-fluid mySliderImage" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/header-bg4.jpeg" class="d-block w-100 img-fluid mySliderImage" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -184,81 +187,7 @@
 <!--                            </div>-->
 <!--                        </div>-->
 <!--                    </div>-->
-<!--                    <div class="col-lg-4 col-sm-6 mb-4">-->
-<!--                        &lt;!&ndash; Portfolio item 2&ndash;&gt;-->
-<!--                        <div class="portfolio-item">-->
-<!--                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">-->
-<!--                                <div class="portfolio-hover">-->
-<!--                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
-<!--                                </div>-->
-<!--                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />-->
-<!--                            </a>-->
-<!--                            <div class="portfolio-caption">-->
-<!--                                <div class="portfolio-caption-heading">Explore</div>-->
-<!--                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-4 col-sm-6 mb-4">-->
-<!--                        &lt;!&ndash; Portfolio item 3&ndash;&gt;-->
-<!--                        <div class="portfolio-item">-->
-<!--                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">-->
-<!--                                <div class="portfolio-hover">-->
-<!--                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
-<!--                                </div>-->
-<!--                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />-->
-<!--                            </a>-->
-<!--                            <div class="portfolio-caption">-->
-<!--                                <div class="portfolio-caption-heading">Finish</div>-->
-<!--                                <div class="portfolio-caption-subheading text-muted">Identity</div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">-->
-<!--                        &lt;!&ndash; Portfolio item 4&ndash;&gt;-->
-<!--                        <div class="portfolio-item">-->
-<!--                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">-->
-<!--                                <div class="portfolio-hover">-->
-<!--                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
-<!--                                </div>-->
-<!--                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />-->
-<!--                            </a>-->
-<!--                            <div class="portfolio-caption">-->
-<!--                                <div class="portfolio-caption-heading">Lines</div>-->
-<!--                                <div class="portfolio-caption-subheading text-muted">Branding</div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">-->
-<!--                        &lt;!&ndash; Portfolio item 5&ndash;&gt;-->
-<!--                        <div class="portfolio-item">-->
-<!--                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">-->
-<!--                                <div class="portfolio-hover">-->
-<!--                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
-<!--                                </div>-->
-<!--                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />-->
-<!--                            </a>-->
-<!--                            <div class="portfolio-caption">-->
-<!--                                <div class="portfolio-caption-heading">Southwest</div>-->
-<!--                                <div class="portfolio-caption-subheading text-muted">Website Design</div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-4 col-sm-6">-->
-<!--                        &lt;!&ndash; Portfolio item 6&ndash;&gt;-->
-<!--                        <div class="portfolio-item">-->
-<!--                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">-->
-<!--                                <div class="portfolio-hover">-->
-<!--                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
-<!--                                </div>-->
-<!--                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />-->
-<!--                            </a>-->
-<!--                            <div class="portfolio-caption">-->
-<!--                                <div class="portfolio-caption-heading">Window</div>-->
-<!--                                <div class="portfolio-caption-subheading text-muted">Photography</div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
+<!--        -->
 <!--                </div>-->
 <!--            </div>-->
 <!--        </section>-->
@@ -275,17 +204,23 @@
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/events/1.jpeg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>2021-2022</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
+                                <h4> 22nd October,2021</h4>
+                                <h4 class="subheading">GENERAL COUNCIL MEETING</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
+                                    recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                </p>
+                                <a class="btn mt-2 btn-outline-info" data-bs-toggle="modal" href="#event1">preview</a>
+                            </div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/events/2.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>March 2023</h4>
@@ -295,7 +230,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/events/3.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>December 2024</h4>
@@ -305,7 +240,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/events/4.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>July 2024</h4>
@@ -406,8 +341,7 @@
                             <p class="text-muted">General Secretary</p>
                             <a class="btn btn-dark btn-social mx-2" href="tel:+233277802828"><i class="fas fa-phone-alt"></i></a>
                             <a class="btn btn-success btn-social mx-2" href="https://api.whatsapp.com/send?phone=233277802828"><i class="fab fa-whatsapp"></i></a>
-                            <a class="btn btn-info btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-
+                            <a class="btn btn-info btn-social mx-2" href=""><i class="fab fa-twitter"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -445,9 +379,9 @@
                     <div class="col-md-6 text-white mb-3">
                         <p><span class="text-warning"><i class="fas fa-envelope"></i> Email:</span>&nbsp; &nbsp; church@gmail.com</p>
                         <p><span class="text-warning"><i class="fas fa-phone"></i> Phone:</span>&nbsp; &nbsp; +233547323197</p>
-                        <p><span class="text-warning"><i class="fas fa-map-marked"></i> Location:</span>&nbsp; &nbsp;South Suntreso, Kumasi</p>
+                        <p><span class="text-warning"><i class="fas fa-map-marked"></i> Location:</span>&nbsp; &nbsp;North Suntreso, Kumasi</p>
                         <p><span class="text-warning"><i class="fas fa-home"></i> Postal Address:</span>&nbsp; &nbsp;P.O.BOX 2322, Adum</p>
-                        <p><span class="text-warning"><i class="fas fa-home"></i> Digital Address:</span>&nbsp; &nbsp;AK-081-9355</p>
+                        <p><span class="text-warning"><i class="fas fa-home"></i> Digital Address:</span>&nbsp; &nbsp;AK-089-4639</p>
                     </div>
 
 
@@ -470,7 +404,7 @@
                     <div class="col-lg-4 text-lg-start">
                         Copyright &copy;
                         <span style="font-weight: bold;">Christ Revival Church</span>
-                        2021
+                        <?php echo date('Y'); ?>
                     </div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-info btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
@@ -481,9 +415,10 @@
                 </div>
             </div>
         </footer>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <!-- Event 1  Modals-->
+
+        <div class="portfolio-modal modal fade" id="event1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -491,199 +426,15 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+
+                                    <h2 class="text-uppercase">General Council Meeting</h2>
+                                    <h4 class="item-intro text-muted">22nd October, 2021</h4>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/events/1preview.jpeg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Threads
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Illustration
-                                        </li>
-                                    </ul>
+
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Finish
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Identity
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Lines
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Branding
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 5 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Southwest
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Website Design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Window
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Photography
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
+                                        Close
                                     </button>
                                 </div>
                             </div>
@@ -693,8 +444,9 @@
             </div>
         </div>
 
+
+
         <!-- Bootstrap core JS-->
-<!--        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>-->
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="fa/js/all.min.js"></script>
         <!-- Core theme JS-->
