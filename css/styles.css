@@ -11372,10 +11372,10 @@ p {
   }
   #mainNav.navbar-shrink {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0;
     background-color: #212529;
   }
-  #mainNav.navbar-shrink .navbar-brand {
+  #mainNav.navbar-shrink  {
     font-size: 1.25em;
   }
   #mainNav.navbar-shrink .navbar-brand svg,

@@ -28,6 +28,10 @@
             #mainNav {
                 padding-top: 0 !important;
                 padding-bottom: 0 !important;
+                margin-bottom: 0 !important;
+            }
+            .masthead {
+                margin-top: 0 !important;
             }
 
 
@@ -172,35 +176,6 @@
                 </div>
             </div>
         </section>
-        <!-- Portfolio Grid-->
-<!--        <section class="page-section bg-light pt-4" id="portfolio">-->
-<!--            <div class="container">-->
-<!--                <div class="text-center">-->
-<!--                    <h2 class="section-heading text-uppercase">Portfolio</h2>-->
-<!--                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-lg-4 col-sm-6 mb-4">-->
-<!--                        &lt;!&ndash; Portfolio item 1&ndash;&gt;-->
-<!--                        <div class="portfolio-item">-->
-<!--                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">-->
-<!--                                <div class="portfolio-hover">-->
-<!--                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
-<!--                                </div>-->
-<!--                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />-->
-<!--                            </a>-->
-<!--                            <div class="portfolio-caption">-->
-<!--                                <div class="portfolio-caption-heading">Threads</div>-->
-<!--                                <div class="portfolio-caption-subheading text-muted">Illustration</div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--        -->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </section>-->
-
-
 
 
         <!-- Upcoming Events-->
@@ -219,11 +194,12 @@
                                 <h4 class="subheading">GENERAL COUNCIL MEETING</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
-                                    recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                <p class="text-muted">
+                                    Prayer: Lord God, we thank You for the stories of old that
+                                    we have read and learned from the Bible and people of faith. We praise You that You continue
+                                    to be known in the personal lives of so many people around the ....
                                 </p>
-                                <a class="btn mt-2 btn-outline-info" data-bs-toggle="modal" href="#event1">preview</a>
+                                <a class="btn mt-2 btn-outline-success" data-bs-toggle="modal" href="#event1">preview</a>
                             </div>
                         </div>
                     </li>
@@ -231,40 +207,45 @@
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/events/2.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>March 2023</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
+                                <h4>28th October, 2021</h4>
+                                <h4 class="subheading">Remembering God</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body">
+                                <p class="text-muted">
+                                    In the end, we remember God’s wonders from the Bible and we embrace personal stories
+                                    of His work in the world today. We know God through what we read in
+                                    the scriptures and in the faithful lives of other people.
+                                </p>
+                            </div>
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/events/3.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/events/1.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>December 2024</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
+                                <h4>1st November 2021</h4>
+                                <h4 class="subheading">Taking Things in Stride</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body">
+                                <p class="text-muted">
+                                    Our world is filled with ups and downs, highs and lows. Just as Jesus came
+                                    into the world because we needed a Savior, God sends us into situations because people
+                                    still need to see Jesus’ example and hear His wisdom. He calls us to leadership roles
+                                    because He needs someone to represent Jesus, especially when the challenges come.
+                                    When difficulties arise, how will you reflect Jesus' example of servant leadership to those around you?
+                                </p>
+                            </div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/events/4.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2024</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
+
                     <li class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>
-                                Be Part
+                                Worship
                                 <br />
-                                Of Our
+                                With
                                 <br />
-                                Story!
+                               Us
                             </h4>
                         </div>
                     </li>
@@ -276,7 +257,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Our Amazing Leaders</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Reach out to us.</h3>
                 </div>
 
                 <div class="row justify-content-center">
@@ -368,8 +349,11 @@
 
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-                        laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                        <p class="large text-muted">
+                            Remember your leaders, those who spoke to you the word of God.
+                            Consider the outcome of their way of life, and imitate their faith.
+                            <span class="text-dark" style="font-weight: bold; color: teal !important;">Hebrews 13:7</span>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -438,7 +422,14 @@
                                     <h4 class="text-uppercase">General Council Meeting</h4>
                                     <h5 class="item-intro text-muted">22nd October, 2021</h5>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/events/1preview.jpeg" alt="..." />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>
+                                        Prayer: Lord God, we thank You for the stories of old that
+                                        we have read and learned from the Bible and people of faith. We praise You that You continue
+                                        to be known in the personal lives of so many people around the world.
+                                        Thank You for Your gracious and compassionate interest in our planet.
+                                        We are grateful for the opportunity to truly know who You are and how You continue to work
+                                        in and bless the world. In Your Holy Name, we pray. Amen.
+                                    </p>
 
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
