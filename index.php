@@ -183,7 +183,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Upcoming Events</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">We are all called to grow together in unity over time.</h3>
                 </div>
                 <ul class="timeline">
                     <li>
