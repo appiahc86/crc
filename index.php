@@ -74,7 +74,6 @@
             <div class="container">
                 <a class="navbar-brand" href="#page-top">
                     <img src="assets/img/logo.png" class="logo"  alt="..." />
-<!--                    CRC-->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -94,7 +93,7 @@
             </div>
         </nav>
 
-        <!-- Masthead-->
+
         <header class="masthead container-flex">
 
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -126,7 +125,7 @@
 
 
         </header>
-        <!-- Our Mission-->
+        <!-- About Us-->
         <section class="page-section pt-3 pt-md-5 pb-4" id="about-us">
             <div class="container">
                 <div class="text-center">
@@ -178,7 +177,7 @@
         </section>
 
 
-        <!-- Upcoming Events-->
+        <!-- Upcoming Events -->
         <section class="page-section" id="events">
             <div class="container">
                 <div class="text-center">
@@ -252,7 +251,7 @@
                 </ul>
             </div>
         </section>
-        <!-- Team-->
+        <!-- Leaders-->
         <section class="page-section bg-light" id="leaders">
             <div class="container">
                 <div class="text-center">
@@ -369,11 +368,11 @@
                     </div>
 
                     <div class="col-md-6 text-white mb-3">
-                        <p><span class="text-warning"><i class="fas fa-envelope"></i> Email:</span>&nbsp; &nbsp; church@gmail.com</p>
+                        <p><span class="text-warning"><i class="fas fa-envelope"></i> Email:</span>&nbsp; &nbsp; christrevivalch@gmail.com</p>
                         <p><span class="text-warning"><i class="fas fa-phone"></i> Phone:</span>&nbsp; &nbsp; +233547323197</p>
                         <p><span class="text-warning"><i class="fas fa-map-marked"></i> Location:</span>&nbsp; &nbsp;North Suntreso, Kumasi</p>
-                        <p><span class="text-warning"><i class="fas fa-home"></i> Postal Address:</span>&nbsp; &nbsp;P.O.BOX 2322, Adum</p>
                         <p><span class="text-warning"><i class="fas fa-home"></i> Digital Address:</span>&nbsp; &nbsp;AK-089-4639</p>
+                        <p><span class="text-warning"><i class="fas fa-home"></i> Postal Address:</span>&nbsp; &nbsp;P.O.Box Ks 3162, Adum-Kumasi</p>
                     </div>
 
 
